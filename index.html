@@ -10,38 +10,38 @@
 <body>
     <header>
         <div class="logo">
-            <p>Spreadsheet<br>Maker</p>
+            <p class="white">Spreadsheet</p>
+            <p>Maker</p>
         </div>
 
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Gerar Planilha</a></li>
-                <li><a href="#">Editar Planilha</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Cadastre-se</a></li>
-            </ul>
+        <nav>
+            <a class="nav-item" href="#">Gerar Planilha</a>
+            <a class="nav-item" href="#">Editar Planilha</a>
+            <a class="nav-item" href="#">Sobre</a>
+            <a class="nav-item" href="#">Contato</a>
+            <a class="nav-item" href="#">Cadastre-se</a>
         </nav>
     </header>
 
-    <main>
-        <aside>
+    <main class="content">
+        <section class="content-left">
             <div class="title">
                 <h1>Gerador de Planilhas Online</h1>
                 <h2>Com o Spreadsheet Maker você gera suas planilhas de uma forma fácil e intuitiva.</h2>
-                <h2>Faça login ou cadastre-se agora mesmo!</h2>
             </div>
             <form action="" class="form">
+                <label for="">Email:</label>
                 <input type="email" placeholder="Email" required>
+                <label for="">Senha:</label>
                 <input type="password" placeholder="Senha" required>
                 <a href="#">Esqueceu seu email ou senha?</a>
                 <input type="submit" value="Entrar" required>
                 <a href="#">Cadastre-se aqui</a>
             </form>
-        </aside>
-        <article>
+        </section>
+        <section class="content-right">
             <img src="images/computer.svg" alt="Computer">
-        </article>
+        </section>
     </main>
 </body>
 </html>
