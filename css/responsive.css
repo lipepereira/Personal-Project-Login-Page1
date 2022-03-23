@@ -1,0 +1,267 @@
+@media screen and (max-width: 1250px) {
+
+    .title h1 {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    main {
+        padding-top: 0;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+
+    .title h1 {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .content-right img {
+        width: 550px;
+        margin-bottom: -100px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .title h1 {
+        width: 80%;
+    }
+
+    .title h2 {
+        padding-top: 15px;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .content-right img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    header {
+        height: 10vh;
+        padding: 40px 30px;
+    }
+
+    main {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        gap: 20px;
+    }
+
+    .title {
+        width: 75%;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .title h2 {
+        padding-top: 10px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .content-left {
+        width: 100%;
+        padding: 25px 10px;
+    }
+
+    .form {
+        width: 45%;
+    }
+
+    .content-right {
+        width: 100%;
+    }
+
+    .content-right img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    nav {
+        gap: 30px;
+        padding-top: 15px;
+    }
+
+    .form {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 18vh;
+        padding-top: 50px;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 7px;
+    }
+
+    nav {
+        gap: 30px;
+    }
+
+    #none-item {
+        display: none;
+    }
+
+    .title {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .form {
+        width: 60%;
+    }
+
+    .content-right img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 585px) {
+
+    .title h1 {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+
+    .logo {
+        padding-top: 5px;
+    }
+
+    .nav-item {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        width: 90%;
+    }
+
+    .title h1 {
+        width: 60%;
+    }
+
+    .form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    header {
+        height: 150px;
+        padding: 0;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 23px;
+        padding-top: 5px;
+    }
+
+    .nav-item {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    #none-item {
+        display: none;
+    }
+
+    main {
+        padding-top: 5px;
+    }
+
+    .title h1 {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .title h2 {
+        padding-top: 10px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .form {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    header {
+        height: 150px;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 23px;
+    }
+
+    nav {
+        gap: 17px;
+    }
+
+    .nav-item {
+        font-size: 15px;
+    }
+
+    .title h1 {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .title h1 {
+        width: 80%;
+    }
+}

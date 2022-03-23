@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width='device-width', initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Spreadsheet Maker</title>
 </head>
 <body>
     <header>
-        <div class="logo">
+        <a class="logo" href="">
             <p class="white">Spreadsheet</p>
             <p>Maker</p>
-        </div>
+        </a>
 
         <nav>
             <a class="nav-item" href="#">Gerar Planilha</a>
-            <a class="nav-item" href="#">Editar Planilha</a>
+            <a id="none-item" class="nav-item" href="#">Editar Planilha</a>
             <a class="nav-item" href="#">Sobre</a>
             <a class="nav-item" href="#">Contato</a>
             <a class="nav-item" href="#">Cadastre-se</a>
@@ -34,7 +35,7 @@
                 <input type="email" placeholder="Email" required>
                 <label for="">Senha:</label>
                 <input type="password" placeholder="Senha" required>
-                <a href="#">Esqueceu seu email ou senha?</a>
+                <a class="forgot-password" href="#">Esqueceu seu email ou senha?</a>
                 <input type="submit" value="Entrar" required>
                 <a href="#">Cadastre-se aqui</a>
             </form>
