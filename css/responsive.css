@@ -270,11 +270,13 @@
     }
 
     .form {
+        width: 93%;
         padding-top: 20px;
     }
 
     .form label {
         font-size: 18px;
+        font-weight: 700;
         margin-bottom: 5px;
         margin-top: 10px;
     }
