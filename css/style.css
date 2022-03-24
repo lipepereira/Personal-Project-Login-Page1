@@ -3,7 +3,7 @@
 /* colors: 
 #FFFFFF branco
 #E4F2FD azul clarinho
-#7ABFF7 azul medio
+#00AAFE azul medio
 #68A3D2 azul forte
 #1a2327 azul marinho forte*/
 
@@ -29,7 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7ABFF7;
+    background-color: #00AAFE;
 }
 
 .logo {
@@ -96,7 +96,7 @@ main {
 
 .form {
     width: 65%;
-    background-color: #7ABFF7;
+    background-color: #00AAFE;
     display: flex;
     flex-direction: column;
     align-items: center;
