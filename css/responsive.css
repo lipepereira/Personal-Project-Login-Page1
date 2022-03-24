@@ -247,8 +247,9 @@
     }
 
     nav {
-        gap: 17px;
-        padding: 3px 0;
+        gap: 18px;
+        padding-top: 4px;
+        padding-bottom: 0;
     }
 
     .nav-item {
