@@ -256,9 +256,27 @@
         font-size: 16px;
     }
 
+    .title {
+        margin-bottom: 0px;
+    }
+
     .title h1 {
         width: 70%;
         margin: 0 auto;
+    }
+
+    .title h2 {
+        width: 100%;
+    }
+
+    .form {
+        padding-top: 20px;
+    }
+
+    .form label {
+        font-size: 18px;
+        margin-bottom: 5px;
+        margin-top: 10px;
     }
 }
 
